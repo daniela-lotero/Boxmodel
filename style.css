@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    padding: 9px 0px 9px 25px;
+    font-size: 14px;
+}
+
+.heroes{
+    background-color: #00669F;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #00669F;
+    color: white;
+    padding: 15px;
+}
