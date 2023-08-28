@@ -8,6 +8,16 @@ body{
     font-family: sans-serif;
 }
 
+button {background-color: #00669F;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 20px 90px;
+    width: 128px;
+    height: 50px;
+}
+
+
 .descuentos{
     background-color: #1CD1B0;
     padding: 9px 0px 9px 25px;
@@ -24,3 +34,42 @@ body{
     color: white;
     padding: 15px;
 }
+
+.card{
+    display: flex;
+    margin: 200px 150px 200px 150px;
+}
+
+.herocard{position: relative;
+    width: 300px;
+    height: 550px;
+    margin:0px 25px 0px 25px;
+}
+
+.imaghero{position: absolute;
+    border-radius: 100px;
+    top:130px;
+    left:90px ;    
+}
+
+.heart{position: absolute;
+top:10px;
+left:10px;
+}
+
+.info{background-color: #F3F3F3;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    height:300px;
+    padding: 70px 18px 20px;
+}
+
+.info h2{text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.info p{
+    text-align:justify;
+    font-family: sans-serif;  
+}
+
